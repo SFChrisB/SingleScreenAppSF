@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colBackground"
+    tools:context="com.example.android.singlescreenappproject.MainActivity"
+    style="@style/RelViewStyle">
+
+    <ImageView
+        android:id="@+id/titlepic"
+        android:src="@drawable/belfelpic"
+        style="@style/TitleImageViewStyle"/>
+    <TextView
+        android:id="@+id/titletext"
+        android:text="@string/TitleText1"
+        style="@style/TitleTextViewStyle" />
+    <ScrollView
+        android:layout_below="@id/titlepic"
+        style="@style/ScrollViewStyle">
+
+        <LinearLayout
+            android:background="@color/colorPrimaryDark"
+            style="@style/LinearViewStyle">
+
+            <TextView
+                style="@style/TextViewBox"
+                android:text="@string/InfoText1" />
+            <TextView
+                style="@style/TextViewBox"
+                android:text="@string/InfoText2" />
+            <View
+                style="@style/ViewStyle"/>
+            <TextView
+                style="@style/TextViewBox"
+                android:text="@string/SubText1"
+                android:textColor="@color/subText"/>
+            <View
+                style="@style/ViewStyle"/>
+            <ImageView
+                style="@style/ImageViewIconStyle"
+                android:src="@drawable/icweb"/>
+            <TextView
+                style="@style/TextViewBox"
+                android:autoLink="web"
+                android:text="@string/WebText" />
+            <ImageView
+                style="@style/ImageViewIconStyle"
+                android:src="@drawable/icemail"/>
+            <TextView
+                style="@style/TextViewBox"
+                android:autoLink="email"
+                android:text="@string/EmailText" />
+            <ImageView
+                style="@style/ImageViewIconStyle"
+                android:src="@drawable/ictime"/>
+            <TextView
+                style="@style/TextViewBox"
+                android:text="@string/TimeText" />
+            <ImageView
+                style="@style/ImageViewIconStyle"
+                android:src="@drawable/iclocate"/>
+            <TextView
+                style="@style/TextViewBox"
+                android:autoLink="map"
+                android:text="@string/LocateText" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

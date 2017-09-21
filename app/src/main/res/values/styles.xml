@@ -1,0 +1,69 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Style for the Parent RelativeLayout View -->
+    <style name="RelViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">@dimen/eightdp</item>
+    </style>
+
+    <!-- Style for the Title Image and Title Text -->
+    <style name="TitleImageViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/titleHeight</item>
+        <item name="android:layout_margin">@dimen/sixteendp</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="TitleTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/whiteText</item>
+        <item name="android:textSize">@dimen/titletextSize</item>
+        <item name="android:fontFamily">serif-monospace</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">@dimen/titletexttopmargin</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <!-- Style for the ScrollView -->
+    <style name="ScrollViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">@dimen/scrollviewMargin</item>
+    </style>
+
+    <!-- Style for the Content within ScrollView -->
+    <style name="LinearViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="TextViewBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/whiteText</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_margin">@dimen/sixteendp</item>
+    </style>
+
+    <style name="ViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/viewStyleHeight</item>
+        <item name="android:layout_margin">@dimen/sixteendp</item>
+        <item name="android:background">@color/colBackground</item>
+    </style>
+
+    <style name="ImageViewIconStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

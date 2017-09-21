@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SingleScreenAppProject</string>
+    <string name="TitleText1">Bellow Fellows</string>
+    <string name="InfoText1">Bellow Fellows is a men\'s community choir based in Angel, London that meets on a Tuesday evening.</string>
+    <string name="InfoText2">Drop-in to any Bellow Fellow\'s session and try it out.</string>
+    <string name="SubText1">Current choir subscriptions are: \n£70(£50 conc) for a term\n(usually ~ 10 sessions)\n £12 (£8 conc) drop-in</string>
+    <string name="WebText">http://www.bellowfellows.com/</string>
+    <string name="EmailText">bellowfellowschoir@gmail.com</string>
+    <string name="TimeText">Tuesdays: 19:00 - 20:30</string>
+    <string name="LocateText">45 White Lion Street, Angel, London. N1 9PW</string>
+</resources>
